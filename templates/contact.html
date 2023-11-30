@@ -1,0 +1,53 @@
+{% extends 'base.html'%}
+{% load static %}
+{%block class%}'sub_page'{%endblock%}
+{%block title%}Contacto{%endblock%}
+{% block content %}  
+<!-- contact section -->
+  <section class="contact_section layout_padding-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-md-1">
+          <div class="heading_container">
+            <h2>
+              Contacto
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-md-1">
+          <div class="form_container">
+            <form action="">
+              <div>
+                <input type="text" placeholder="Tu Nombre" />
+              </div>
+              <div>
+                <input type="text" placeholder="Teléfono" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Mensaje" />
+              </div>
+              <div class="btn_box">
+                <button>
+                  ENVIAR
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6 px-0">
+          <div class="map_container">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.7587603836864!2d-70.65175021181493!3d-33.42953322783729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c598b324d58d%3A0xa8223d705ddd4295!2sEl%20Completo%20Feliz!5e0!3m2!1sen!2scl!4v1701307303611!5m2!1sen!2scl" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+{% endblock %}
