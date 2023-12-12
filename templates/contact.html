@@ -1,7 +1,7 @@
 {% extends 'base.html'%}
 {% load static %}
 {%block class%}'sub_page'{%endblock%}
-{%block title%}Contacto{%endblock%}
+{%block title%}Arquishield - Contacto{%endblock%}
 {% block content %}  
 <!-- contact section -->
   <section class="contact_section layout_padding-top">
@@ -20,16 +20,16 @@
           <div class="form_container">
             <form action="">
               <div>
-                <input type="text" placeholder="Tu Nombre" />
+                <input required type="text" placeholder="Tu Nombre" />
               </div>
               <div>
-                <input type="text" placeholder="Teléfono" />
+                <input required type="text" placeholder="Teléfono" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input required type="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Mensaje" />
+                <input required type="text" class="message-box" placeholder="Mensaje" />
               </div>
               <div class="btn_box">
                 <button>
