@@ -41,38 +41,65 @@
 
   <section class="client_section layout_padding">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container mb-4">
         <h2>
           Nuestro <span>Trabajo</span>
         </h2>
       </div>
-      <div class="client_container">
-        <div class="carousel-wrap ">
-          <div class="owl-carousel">
-            <div class="item">
-              <div class="box">
-                <div class="detail-box">
-                  <img src="{% static 'images/about-img.jpg'%}" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="box">
-                <div class="detail-box">
-                  <img src="{% static 'images/about-img.jpg'%}" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="box">
-                <div class="detail-box">
-                  <img src="{% static 'images/about-img.jpg'%}" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
+
+      <div class="portfolio-item row">
+        <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/1.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light"> 
+          <img class="img-fluid" src="{% static 'images/1.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/2.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light"> 
+          <img class="img-fluid" src="{% static 'images/2.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/3.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/3.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/4.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/4.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/5.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/5.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/6.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/6.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/7.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/7.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/8.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/8.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/9.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/9.jpg'%}" alt="">
+          </a>
+        </div>
+        <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+          <a href="{% static 'images/10.jpg'%}" class="fancylight popup-btn" data-fancybox-group="light">
+          <img class="img-fluid" src="{% static 'images/10.jpg'%}" alt="">
+          </a>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -88,12 +115,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="heading_container">
+        </div>
+        <div class="col-md-6">
+          <div class="heading_container" style="align-items: end;">
             <h2>
               Compromiso
             </h2>
           </div>
-          <p>
+          <p style="text-align: right;">
             ¿Listos para conducir hacia el futuro con nosotros? La diferencia está en cada detalle, y en Arquishield, esos detalles construyen el camino hacia la excelencia.
           </p>
         </div>
